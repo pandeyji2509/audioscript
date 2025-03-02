@@ -1,0 +1,79 @@
+.audio-uploader {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .upload-area {
+      padding: 15px;
+    }
+    
+    .upload-icon {
+      font-size: 36px;
+    }
+    
+    .select-file-btn,
+    .analyze-btn {
+      width: 100%;
+    }
+  }
+  .upload-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-area h3 {
+    margin-bottom: 10px;
+  }
+  
+  .upload-area p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .select-file-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .selected-file {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .selected-file span {
+    font-weight: bold;
+  }
+  
+  .analyze-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .analyze-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
